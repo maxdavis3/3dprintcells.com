@@ -1,9 +1,18 @@
 baseURL = "https://3dprintcells.com/"
 languageCode = "en-us"
 title = "3D Print Cells"
-theme = "printwire"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Cells"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">CELLS</span>'
 tagline       = "High-throughput cell bioprinting for drug discovery, disease modelling, and in vitro assay development."
 description   = "3D Print Cells covers the science and application of cell-laden bioprinting — from spheroid culture to organ-on-chip and high-content screening models."
 keywords      = "cell bioprinting, 3D cell culture, spheroids, organ-on-chip, drug discovery, in vitro models, GelMA"
