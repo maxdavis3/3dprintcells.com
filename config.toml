@@ -11,6 +11,7 @@ title = "3D Print Cells"
       unsafe = true
 
 [params]
+ogImage       = "/images/04_vascularized_heart.png"
 siteName      = "3D Print Cells"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">CELLS</span>'
 tagline       = "High-throughput cell bioprinting for drug discovery, disease modelling, and in vitro assay development."
